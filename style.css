@@ -1,0 +1,145 @@
+:root {
+  --background-color: #eeebe6;
+  --font-color: #4e4e4e;
+  --accent-color: #6d8180;
+  --accent-color-too: rgba(255, 255, 0, 0.425);
+  --link-color: #bcbcbc;
+  --hover-color: rgb(155, 155, 155);
+  --font-family: "Rajdhani", sans-serif;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  color: var(--link-color);
+  transition: all 300ms ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--hover-color);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  padding-top: 5px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.disab {
+  pointer-events: none;
+}
+
+.active {
+  color: var(--hover-color);
+}
+
+.header {
+  padding-top: 100px;
+  margin-bottom: 30px;
+  font-family: var(--font-family);
+  height: 100vh;
+}
+
+.hi {
+  font-size: 25px;
+}
+
+.intro {
+  margin-bottom: 140px;
+}
+
+.who {
+  font-size: 100px;
+  line-height: 0.8;
+  font-weight: 300;
+  max-width: 400px;
+  margin: 0 auto 80px;
+}
+
+.who span {
+  background-color: var(--accent-color-too);
+}
+
+.skillset {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.accent-link {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--hover-color);
+  background-color: var(--accent-color-too);
+}
+
+.accent-link:hover {
+  color: var(--link-color);
+}
+
+.projects {
+  padding: 5px 15px 25px;
+  background-color: white;
+  height: 100vh;
+}
+
+.project-list {
+  margin-bottom: 20px;
+}
+
+.contact-in-projects {
+  text-align: right;
+}
+
+.project-name {
+  margin-top: 30px;
+}
+
+.project-image {
+  max-height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.footer {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.in-footer-wrap {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact a {
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.contact a:hover {
+  color: var(--font-color);
+}
+
+.socials {
+  font-size: 20px;
+}
