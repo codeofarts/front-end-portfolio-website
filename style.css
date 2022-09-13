@@ -28,7 +28,7 @@ a:hover {
 body {
   background-color: var(--background-color);
   color: var(--font-color);
-  padding-top: 5px;
+  padding-top: 15px;
   text-align: center;
   font-weight: 300;
 }
@@ -49,10 +49,9 @@ body {
 }
 
 .header {
-  padding-top: 100px;
+  padding-top: 80px;
   margin-bottom: 30px;
   font-family: var(--font-family);
-  height: 100vh;
 }
 
 .hi {
@@ -96,7 +95,6 @@ body {
 .projects {
   padding: 5px 15px 25px;
   background-color: white;
-  height: 100vh;
 }
 
 .project-list {
@@ -116,22 +114,16 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+.go-up {
+  position: sticky;
+}
+
 .footer {
-  padding: 5px 15px;
+  padding: 40px 15px 20px 30px;
 }
 
-.footer-wrap {
-  display: flex;
-  align-items: center;
-}
-
-.contact-socials-wrap {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+.contact {
+  margin-bottom: 5px;
 }
 
 .contact a {
@@ -143,6 +135,50 @@ body {
   color: var(--font-color);
 }
 
+.contact-location {
+  margin-bottom: 20px;
+}
+
+.socials-open-source {
+  margin-right: 100px;
+}
+
 .socials {
   font-size: 20px;
+}
+
+.open-source-link {
+  font-family: var(--font-family);
+}
+
+.location {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 120px;
+  }
+
+  .down-deco {
+    color: var(--accent-color);
+  }
+
+  .intro {
+    margin-bottom: 80px;
+  }
+
+  .skillset {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .hi {
+    font-size: 20px;
+  }
+
+  .who {
+    font-size: 65px;
+    margin-bottom: 60px;
+  }
 }
