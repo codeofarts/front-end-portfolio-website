@@ -8,6 +8,10 @@
   --font-family: "Rajdhani", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p,
 h1,
 h2 {
@@ -114,7 +118,7 @@ body {
 }
 
 .footer {
-  padding: 40px 15px 20px 30px;
+  padding: 40px 15px 20px;
 }
 
 .contact {
