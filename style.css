@@ -67,7 +67,7 @@ body {
   line-height: 0.8;
   font-weight: 300;
   max-width: 400px;
-  margin: 0 auto 80px;
+  margin: 0 auto 90px;
 }
 
 .who span {
@@ -93,20 +93,13 @@ body {
 }
 
 .projects {
-  padding: 5px 15px 25px;
+  padding: 5px 15px 30px;
   background-color: white;
+  position: relative;
 }
 
 .project-list {
-  margin-bottom: 20px;
-}
-
-.contact-in-projects {
-  text-align: right;
-}
-
-.project-name {
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .project-image {
@@ -115,7 +108,9 @@ body {
 }
 
 .go-up {
-  position: sticky;
+  position: absolute;
+  bottom: 35px;
+  right: 15px;
 }
 
 .footer {
@@ -126,12 +121,12 @@ body {
   margin-bottom: 5px;
 }
 
-.contact a {
+.contact-link-style {
   font-weight: 500;
   color: var(--accent-color);
 }
 
-.contact a:hover {
+.contact-link-style:hover {
   color: var(--font-color);
 }
 

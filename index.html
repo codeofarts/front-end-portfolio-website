@@ -43,105 +43,110 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div class="cont">
-      <div class="nav">
-        <span class="nav-links"
-          ><a href="" class="nav-link disab active d-inline" id="home">About</a>
-          <a href="/index.html#projects" class="nav-link d-inline">Projects</a>
-          <a href="/index.html#contact" class="nav-link d-inline">Contact</a>
-        </span>
-      </div>
-      <div class="header">
-        <div class="intro">
-          <p class="hi">Hi there, I'm Daria,</p>
-          <h1 class="who">Front-End <span>Dev</span>eloper</h1>
-          <p class="versed-in">versed in</p>
-          <div class="skillset p-1">
-            <span class="skill">HTML5</span> • <span class="skill">CSS</span> •
-            <span class="skill">JS</span> •
-            <span class="skill">Bootstrap</span> •
-            <span class="skill">Figma</span>
-          </div>
+    <div class="nav justify-content-end justify-content-sm-start pr-3">
+      <a href="" class="nav-link disab active d-none d-sm-inline" id="home"
+        >About</a
+      >
+      <a href="" class="burger d-inline d-sm-none"
+        ><i class="fa-solid fa-bars"></i
+      ></a>
+      <a href="" class="close-burger d-none"
+        ><i class="fa-solid fa-xmark"></i
+      ></a>
+      <span class="nav-links d-none d-sm-inline" id="nav-mobile">
+        <a href="/index.html#projects" class="nav-link d-inline">Projects</a>
+        <a href="/index.html#contact" class="nav-link d-inline">Contact</a>
+      </span>
+    </div>
+    <div class="header">
+      <div class="intro">
+        <p class="hi">Hi there, I'm Daria,</p>
+        <h1 class="who">Front-End <span>Dev</span>eloper</h1>
+        <p class="versed-in">versed in</p>
+        <div class="skillset pr-1 pl-1">
+          <span class="skill">HTML5</span> • <span class="skill">CSS</span> •
+          <span class="skill">JS</span> • <span class="skill">Bootstrap</span> •
+          <span class="skill">Figma</span>
         </div>
-        <div class="down">
-          <a href="/index.html#projects" class="down-link accent-link pl-1 pr-1"
-            >check out my work</a
-          >
+      </div>
+      <div class="down">
+        <a href="/index.html#projects" class="down-link accent-link pl-1 pr-1"
+          >check out my work</a
+        >
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <h2 class="section-name">Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3 class="project-name">Weather App</h3>
+          <img
+            src="/img/weather-app-thumbnail.jpg"
+            alt="project thumbnail"
+            class="img-fluid project-image"
+          />
+          <div class="descr"></div>
+        </div>
+        <div class="project d-none">
+          <h3 class="project-name">Weather App</h3>
+          <img
+            src="/img/weather-app-thumbnail.jpg"
+            alt="project thumbnail"
+            class="img-fluid project-image"
+          />
+          <div class="descr"></div>
         </div>
       </div>
 
-      <div class="projects" id="projects">
-        <h2 class="section-name">Projects</h2>
-        <div class="project-list">
-          <div class="project">
-            <h3 class="project-name">Weather App</h3>
-            <img
-              src="/img/weather-app-thumbnail.jpg"
-              alt="project thumbnail"
-              class="img-fluid project-image"
-            />
-            <div class="descr"></div>
-          </div>
-          <div class="project d-none">
-            <h3 class="project-name">Weather App</h3>
-            <img
-              src="/img/weather-app-thumbnail.jpg"
-              alt="project thumbnail"
-              class="img-fluid project-image"
-            />
-            <div class="descr"></div>
-          </div>
-        </div>
-        <div class="contact-in-projects">
-          <a href="/index.html#contact" class="accent-link pl-2 pr-2"
-            >contact</a
+      <div class="contact-in-projects p-2">
+        <a href="/index.html#contact" class="contact-link-style pl-2 pr-2"
+          >contact</a
+        >
+      </div>
+      <div class="go-up">
+        <a href="/index.html#home" class="up pl-2 pr-2 accent-link"
+          ><i class="fa-solid fa-up-long"></i
+        ></a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="socials">
+        <a
+          href="https://www.behance.net/codeofarts"
+          class="socials-link p-1"
+          target="_blank"
+          ><i class="fa-brands fa-behance"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/codeofarts/"
+          class="socials-link p-2"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i></a
+        ><a
+          href="https://github.com/codeofarts"
+          class="socials-link p-2"
+          target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div class="p-2 contact-location">
+        <div class="contact" id="contact">
+          <a href="mailto:savchenkodasha@gmail.com" class="contact-link-style"
+            >savchenkodasha@gmail.com</a
           >
         </div>
-        <div class="go-up accent-link m-2 d-inline">
-          <a href="/index.html#home" class="up p-1 pl-2 pr-2"
-            ><i class="fa-solid fa-up-long"></i
-          ></a>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          currently in Germany
         </div>
       </div>
-      <div class="footer">
-        <div class="socials">
-          <a
-            href="https://www.behance.net/codeofarts"
-            class="socials-link p-1"
-            target="_blank"
-            ><i class="fa-brands fa-behance"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/codeofarts/"
-            class="socials-link p-2"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin-in"></i></a
-          ><a
-            href="https://github.com/codeofarts"
-            class="socials-link p-2"
-            target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
-        <div class="p-2 contact-location">
-          <div class="contact" id="contact">
-            <a href="mailto:savchenkodasha@gmail.com"
-              >savchenkodasha@gmail.com</a
-            >
-          </div>
-          <div class="location">
-            <i class="fa-solid fa-location-dot"></i>
-            currently in Germany
-          </div>
-        </div>
-        <div class="open-source">
-          <a
-            href="https://github.com/codeofarts/front-end-portfolio-website"
-            class="open-source-link"
-            target="_blank"
-            >open-source code</a
-          >
-        </div>
+      <div class="open-source">
+        <a
+          href="https://github.com/codeofarts/front-end-portfolio-website"
+          class="open-source-link"
+          target="_blank"
+          >open-source code</a
+        >
       </div>
     </div>
   </body>
