@@ -14,7 +14,8 @@ html {
 
 p,
 h1,
-h2 {
+h2,
+h3 {
   margin: 0;
 }
 
@@ -97,18 +98,41 @@ body {
 }
 
 .projects {
-  padding: 5px 15px 30px;
+  padding: 55px 15px 20px;
   background-color: white;
   position: relative;
 }
 
-.project-list {
-  margin-bottom: 30px;
+.section-name {
+  margin-bottom: 40px;
 }
 
-.project-image {
-  max-height: 500px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+.project-list {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.project-name {
+  font-family: var(--font-family);
+  margin-bottom: 15px;
+}
+
+.project-img {
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+.project-link:hover {
+  background-color: var(--accent-color-too);
 }
 
 .go-up {
@@ -179,5 +203,13 @@ body {
   .who {
     font-size: 65px;
     margin-bottom: 60px;
+  }
+
+  .section-name {
+    margin-bottom: 20px;
+  }
+
+  .project-list {
+    margin-bottom: 30px;
   }
 }
