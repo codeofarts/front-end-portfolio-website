@@ -54,7 +54,7 @@ body {
 }
 
 .header {
-  padding-top: 80px;
+  padding-top: 50px;
   margin-bottom: 30px;
   font-family: var(--font-family);
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .intro {
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 .who {
@@ -72,7 +72,7 @@ body {
   line-height: 0.8;
   font-weight: 300;
   max-width: 400px;
-  margin: 0 auto 90px;
+  margin: 0 auto 70px;
 }
 
 .who span {
@@ -83,6 +83,12 @@ body {
   font-size: 30px;
   font-weight: 500;
   color: var(--accent-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.learning {
+  margin-top: 10px;
 }
 
 .accent-link {
@@ -183,17 +189,8 @@ body {
     padding-top: 120px;
   }
 
-  .down-deco {
-    color: var(--accent-color);
-  }
-
   .intro {
     margin-bottom: 80px;
-  }
-
-  .skillset {
-    max-width: 300px;
-    margin: 0 auto;
   }
 
   .hi {
@@ -203,6 +200,10 @@ body {
   .who {
     font-size: 65px;
     margin-bottom: 60px;
+  }
+
+  .skillset {
+    max-width: 300px;
   }
 
   .section-name {
