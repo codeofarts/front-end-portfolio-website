@@ -104,13 +104,14 @@ body {
 }
 
 .projects {
-  padding: 55px 15px 20px;
+  padding: 30px 15px 20px;
   background-color: white;
+  text-align: right;
   position: relative;
 }
 
 .section-name {
-  margin-bottom: 40px;
+  text-align: center;
 }
 
 .project-list {
@@ -119,32 +120,51 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
-  margin-bottom: 45px;
 }
 
 .project-name {
   font-family: var(--font-family);
   margin-bottom: 15px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .project-img {
-  max-width: 250px;
-  margin-bottom: 15px;
+  max-width: 350px;
+  border: 1px solid var(--accent-color-too);
+}
+
+.project-desc {
+  text-align: left;
+  max-width: 350px;
 }
 
 .project-link {
   font-family: var(--font-family);
   font-weight: 500;
+  display: block;
 }
 
-.project-link:hover {
+.desc-item-name {
+  color: var(--font-color);
+  font-size: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+.project-link:hover .desc-item-name {
   background-color: var(--accent-color-too);
 }
 
+.contact-in-projects {
+  text-align: center;
+}
+
 .go-up {
-  position: absolute;
-  bottom: 35px;
+  display: inline-block;
+  position: sticky;
+  position: -webkit-sticky;
   right: 15px;
+  top: 400px;
 }
 
 .footer {
@@ -204,13 +224,5 @@ body {
 
   .skillset {
     max-width: 300px;
-  }
-
-  .section-name {
-    margin-bottom: 20px;
-  }
-
-  .project-list {
-    margin-bottom: 30px;
   }
 }
